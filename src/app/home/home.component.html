@@ -1,0 +1,26 @@
+<h3>New Restaurant</h3>
+<div>
+    <form [formGroup]="createForm" (ngSubmit)="onCreate(createForm.value)">
+      <div>
+        <label>Name: </label>
+        <input type="text" formControlName="name">
+      </div>
+      <div>
+        <label>Description: </label>
+        <input type="text" formControlName="description">
+      </div>
+      <div>
+        <label>City: </label>
+        <input type="text" formControlName="city">
+      </div>
+      <button type="submit">Submit</button>
+    </form>  
+</div>
+
+<h3>Restaurants</h3>
+<div>
+  <span *ngIf="loading;">Loading...</span>
+  <div *ngFor="let restaurant of restaurants">
+    {{ restaurant.name }}
+  </div>
+</div>

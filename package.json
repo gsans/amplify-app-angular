@@ -23,6 +23,7 @@
     "aws-amplify": "^1.1.25",
     "aws-amplify-angular": "^2.1.12",
     "core-js": "^2.5.4",
+    "graphql": "^14.2.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
