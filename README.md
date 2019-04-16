@@ -1,6 +1,9 @@
 # AmplifyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+Deploy it to AWS Amplify Console:
+
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/gsans/amplify-app-angular)
 
 ## Development server
 
